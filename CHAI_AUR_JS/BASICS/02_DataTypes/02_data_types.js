@@ -27,7 +27,12 @@ console.log(id === custId)  //False
 
 /**
 DATA TYPES - Premitive & Non-Premitive
-Primitive - string, number, boolean, null, undefined, symbol, bigInt
-Non pre,itive - Array, objects, functions
+Primitive - string, number, boolean, null, undefined, symbol, bigInt  (pass by value)
+Non pre,itive - Array, objects, functions (reference type)
 Non premitive data types return object for typeof
+*/
+
+/* 
+stack -> primitive (copy)
+heap -> non primitive (reference)
 */

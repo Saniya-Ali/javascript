@@ -5,6 +5,12 @@ console.log(typeof score);
 let valInNum = Number(score)
 console.log((typeof valInNum));
 
+// Null -> empty
+// undefined -> not specified
+
+// typeof(null) -> object
+// type(undefined) -> undefined
+
 /* type comparison
   dont do comparisons like  
     null/undefined > 0
@@ -14,4 +20,3 @@ console.log((typeof valInNum));
 */
 
 
-//  USE ===
